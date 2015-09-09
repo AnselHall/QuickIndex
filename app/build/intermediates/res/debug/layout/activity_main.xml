@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <com.itheima.quickindexbar.ui.QuickIndexBar
+        android:id="@+id/qib"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/tv_index"
+        android:visibility="gone"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:background="@drawable/shape_bg_index"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="A"
+        android:textColor="#FFF"
+        android:textSize="32sp" />
+
+</RelativeLayout><!-- From: file:/G:/Work/Git/快速索引/app/src/main/res/layout/activity_main.xml -->
